@@ -6,7 +6,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: teal;
+    background-color: rgb(85, 226, 226);
 }
 
 header h1 {
@@ -36,7 +36,10 @@ header nav ul li a {
 /* Banner Section */
 
 .banner {
-    background-image: url("../assets/images/space-banner.jpg");
+    background-image: url("../images/space-banner.jpg");
     background-size: cover;
-    background-position: 80%;
+    background-position: 1%;
+    border: 1px solid blue;
+    width: 100%;
+    height: 400px;
 }
