@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Header Start */
 
 header {
@@ -104,7 +110,11 @@ header nav ul li a {
     /* margin: 20px; */
     height: 1200px;
     width: 100%;
-    position: relative;
+    /* position: relative; */
+}
+
+.work h2 {
+    float: left;
 }
 
 .work img {
@@ -115,28 +125,21 @@ header nav ul li a {
 }
 
 .main {
-    top: 110px;
-    left: 500px;
+    float: right;
+    width: 600px;
 
-    border: 2px solid red;
-    position: absolute;
-    
 }
 
 .main img {
-    width: 800px;
+    width: 600px;
+    margin-right: 10px;
 }
 
 .one {
-    left: 475px;
-    top: 450px;
-    border: 2px solid green;
-    position: absolute;
+    float: right;
+    /* position: relative; */
 }
 
 .two {
-    left: 925px;
-    top: 450px;
-    border: 2px solid green;
-    position: absolute;
+    float: right;
 }
