@@ -83,14 +83,25 @@ header nav ul li a {
 .work {
     background-color: teal;
     border: 5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .work a {
     text-decoration: none;
+    /* display: flex; */
 }
 
 .work h2 {
     font-size: 60px;
+    margin: auto;
 }
 
 .work h3 {
@@ -107,4 +118,8 @@ header nav ul li a {
     height: 300px;
     margin: 30px;
     padding: 30px;
+}
+
+.main-project img {
+    flex-flow: flex-end;
 }
