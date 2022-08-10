@@ -84,14 +84,12 @@ header nav ul li a {
     background-color: teal;
     border: 5px solid red;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .work div {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 .work a {
@@ -101,12 +99,17 @@ header nav ul li a {
 
 .work h2 {
     font-size: 60px;
-    margin: auto;
+    width: 300px;
+    margin: 30px;
+    padding-right: 25%;
+    text-align: center;
+
 }
 
 .work h3 {
     font-size: 40px;
     color: white;
+    position: relative;
 }
 
 .work p {
@@ -115,11 +118,22 @@ header nav ul li a {
 
 .work img {
     width: 400px;
-    height: 300px;
-    margin: 30px;
-    padding: 30px;
+    height: 150px;
+    margin: 5px;
+    padding: 0;
 }
 
 .main-project img {
-    flex-flow: flex-end;
+    width: 800px;
+
 }
+
+.main-project h3 p {
+    position: absolute;
+    right: 300px;
+}
+
+/* .main-project h3 p {
+    right: 200px;
+    top: 200px;
+} */
