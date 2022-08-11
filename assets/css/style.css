@@ -172,10 +172,32 @@ header nav ul li a {
     flex: 0 0 70%;
 }
 
-.main-project {
-    display: flex;
+.main-text {
+
+    padding-left: 40%;
+    justify-content: center;
+    background-color: darkcyan;
+    width: 100%;
+   
+    
 }
 
-.main-project h3 p {
-    display: absolute;
+.main-project img {
+    width: 100%;
+    max-height: 150px;
+    max-width: 600px;
+}
+
+.project-one {
+    display: flex;
+   
+    justify-content: flex-start;
+
+}
+
+.project-one img {
+    margin: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    flex-basis: 50%;
 }
