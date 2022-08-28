@@ -24,9 +24,11 @@ header {
 }
 
 .name {
+    display: flex;
+    text-align: center;
     font-weight: bold;
     font-size: 36px;
-    padding: 10px 10px 0 60px;
+    padding: 10px 30px;
     background-color: #77c5f3;
     border: 5px solid #204e7979;
 
@@ -143,12 +145,13 @@ header nav ul li a {
 
 .left-text {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     /* background-color: blueviolet; */
     height: 93%;
     width: 95%;
     margin: 10px;
     border-right: 5px solid white;
+    padding: 0 30px;
 
 
 }
@@ -167,6 +170,7 @@ header nav ul li a {
     width: 80%;
     margin: 5px;
     height: 90%;
+    padding: 60px 0;
     
 }
 
