@@ -50,7 +50,14 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-size: 1.55vw;
+    margin: 0px 20px;
     
+}
+
+header nav ul li a:hover {
+    background-color: red;
+    color: blue;
+    border: 2px solid black;
 }
 
 /* Banner Section Start */
@@ -187,6 +194,10 @@ header nav ul li a {
     max-width: 600px;
 }
 
+/* .two-imgs:hover {
+    opacity: 1;
+} */
+
 
 .two-one {
     /* background-color: yellow; */
@@ -195,6 +206,11 @@ header nav ul li a {
     margin: 5px;
     max-width: 600px;
     max-height: 150px;
+    opacity: .75;
+}
+
+.two-one:hover {
+    opacity: 1;
 }
 
 .two-one img {
@@ -202,6 +218,7 @@ header nav ul li a {
     max-width: 600px;
     min-width: 550px;
 }
+
 
 .two-two {
     /* background-color: yellowgreen; */
